@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <!-- <h1>My Image Gallery</h1> -->
+    <section class="gallery">
+        <div class="container">
+            <div class="row">
+                <!-- Search Bar -->
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search images...">
+            </div>
+        </div>
+        <div class="row">
+                <div class="gallery-filter">
+                    <span class="filter-item active" data-filter="all">all</span>
+                    <span class="filter-item" data-filter="phone">phone</span>
+                    <span class="filter-item" data-filter="smartwatch">smartwatch</span>
+                    <span class="filter-item" data-filter="earbud">earbud</span>
+                    <span class="filter-item" data-filter="headphone">headphone</span>
+                    <span class="filter-item" data-filter="speaker">speaker</span>
+                    <span class="filter-item" data-filter="metashot">metashot</span>
+                </div>
+            </div>
+            <div class="row">
+                <!-- gallery item start -->
+                <div class="gallery-item phone">
+                    <div class="gallery-item-inner">
+                        <img src="images/phone-1.webp" alt="phone" data-description="OnePlus Smartphone => The OnePlus smartphone is known for its sleek design, vibrant display, and powerful performance. It features a high-resolution AMOLED screen, a fast and responsive fingerprint sensor, and a long-lasting battery. With its top-tier camera setup, the OnePlus smartphone captures stunning photos in any lighting condition, making it a favorite among photography enthusiasts. Its clean and intuitive interface, combined with regular software updates, ensures a smooth user experience. Ideal for both power users and casual consumers, the OnePlus smartphone offers exceptional value in the competitive smartphone market.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button>
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                <!-- gallery item start -->
+                <div class="gallery-item smartwatch">
+                    <div class="gallery-item-inner">
+                        <img src="images/smartwatch-1.jpg" alt="smartwatch" data-description="Smartwatches are advanced wearable devices that blend the functionality of a traditional wristwatch with the capabilities of a smartphone. These versatile gadgets typically feature a touch screen display and are equipped with sensors that track various activities such as steps, heart rate, and sleep patterns. They allow users to receive notifications, answer calls, send messages, and access apps directly from their wrist. Many smartwatches also include GPS, music playback, and mobile payment options, making them convenient for fitness enthusiasts and tech-savvy individuals alike. With customizable watch faces and interchangeable bands, smartwatches are both practical and stylish accessories.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button>
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                <!-- gallery item start -->
+                <div class="gallery-item earbud">
+                    <div class="gallery-item-inner">
+                        <img src="images/earbuds-1.webp" alt="earbud" data-description="The Earbud Bester offers an immersive audio experience with a sleek, modern design. These earbuds are crafted for both style and functionality, featuring a compact and ergonomic shape that fits comfortably in your ears. They deliver crisp, clear sound with deep bass, making them perfect for music lovers who appreciate high-quality audio. The Earbud Bester is equipped with advanced noise-canceling technology, allowing you to enjoy your favorite tunes without any distractions from the outside world. With a long-lasting battery life, these earbuds are ideal for extended use, whether you're on the go or relaxing at home. The minimalist design is complemented by intuitive touch controls, giving you easy access to your music, calls, and voice assistants. Whether you're commuting, working out, or just unwinding, the Earbud Bester provides a premium listening experience in a stylish, compact package.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button>
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                <!-- gallery item start -->
+                <div class="gallery-item headphone">
+                    <div class="gallery-item-inner">
+                        <img src="images/headphone-1.avif" alt="headphone" data-description="Headphones are personal audio devices designed to deliver high-quality sound directly to the ears. They come in various forms, including over-ear, on-ear, and in-ear models, each offering a unique balance of comfort, portability, and audio performance. Over-ear headphones are known for their immersive sound experience, with large ear cups that fully enclose the ears, providing excellent noise isolation. On-ear models, while smaller, rest on the ears and offer a more compact design, making them ideal for portable use. In-ear headphones, or earbuds, are the most portable, fitting snugly within the ear canal and often used for casual listening or during physical activities. Modern headphones incorporate advanced technologies such as noise-canceling, which reduces unwanted ambient sounds, and wireless connectivity, allowing for untethered listening via Bluetooth. These features, combined with their sleek designs and comfortable fit, make headphones an essential accessory for music lovers, gamers, and professionals alike, offering a rich and personalized audio experience.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button>
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                <!-- gallery item start -->
+                <div class="gallery-item speaker">
+                    <div class="gallery-item-inner">
+                        <img src="images/speaker-1.webp" alt="speaker" data-description="Speakers are devices designed to convert electrical signals into sound, allowing us to experience music, movies, and other audio content with rich, vibrant clarity. They come in various sizes and shapes, from compact portable models to large home theater systems, each tailored to different listening environments. Portable speakers are known for their convenience, offering wireless connectivity and battery power that make them perfect for on-the-go use, whether at a beach, park, or a friend's house. Larger, home-based speakers are often designed with multiple drivers, such as woofers and tweeters, to accurately reproduce a wide range of frequencies, delivering deep bass, crisp highs, and balanced mids. This multi-driver design creates a more immersive sound experience, filling a room with clear and powerful audio. Speakers can be found in stereo systems, surround sound setups, and even as part of smart home devices, where they often feature voice-controlled assistants. The quality of sound produced by speakers depends on various factors, including the materials used in their construction, the design of their enclosures, and the power of their amplifiers. Modern speakers often include features like Bluetooth or Wi-Fi connectivity, allowing them to stream music wirelessly from smartphones, tablets, or computers. Whether used for casual listening, professional audio production, or cinematic experiences, speakers play a crucial role in bringing sound to life, enhancing the way we engage with our favorite audio content.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button>
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                <!-- gallery item start -->
+                <div class="gallery-item metashot">
+                    <div class="gallery-item-inner">
+                        <img src="images/metashot-1.webp" alt="metashot" data-description="The metashot bat features a sleek and modern design, perfect for high-performance play. Its lightweight build allows for swift and precise movements, making it an ideal choice for both casual and competitive players. The bat's advanced material composition ensures durability and a strong impact, providing excellent control and power. Whether you're a seasoned player or just starting out, this metashot bat combines style and functionality to enhance your game.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button>
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item metashot">
+                    <div class="gallery-item-inner">
+                        <img src="images/metashot-2.webp" alt="metashot" data-description="An immersive visual experience showcasing the intricacies and details of cutting-edge technology, bringing the viewer up close to the futuristic and elegant design elements. This image captures the essence of innovation with stunning clarity and artistic flair.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button>
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item speaker">
+                    <div class="gallery-item-inner">
+                        <img src="images/speaker-2.webp" alt="speaker" data-description="The JBL PartyBox is a powerful portable speaker designed to bring life to any gathering. With its robust sound quality and impressive bass, it ensures that every beat is felt. The speaker features a dynamic light show that synchronizes with the music, enhancing the party atmosphere. Its durable build and long battery life make it perfect for outdoor events, while the Bluetooth connectivity allows for easy pairing with your devices. Whether you're hosting a backyard barbecue or a beach party, the JBL PartyBox delivers an unforgettable audio experience.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button>
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item earbud">
+                    <div class="gallery-item-inner">
+                        <img src="images/earbuds-2.avif" alt="earbud" data-description="The LV earbuds combine sleek design with high-quality sound performance. Designed for comfort and durability, they offer a perfect fit with various ear tip sizes. The earbuds feature advanced noise cancellation technology, ensuring an immersive listening experience by minimizing external disturbances. Whether you're on a call or enjoying your favorite music, the LV earbuds provide crystal-clear audio and a stylish look that complements any outfit. With easy-to-use controls and a built-in microphone, they offer both convenience and functionality for everyday use.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button>
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item smartwatch">
+                    <div class="gallery-item-inner">
+                        <img src="images/smartwatch-2.webp" alt="smartwatch" data-description="The FastTrack smartwatch combines sleek design with cutting-edge technology to enhance your lifestyle. Featuring a vibrant display and a range of smart features, it helps you stay connected and track your fitness goals with ease. Its customizable watch faces and durable build make it a perfect accessory for both casual and active settings. With intuitive controls and long battery life, this smartwatch is designed to keep up with your busy schedule and dynamic lifestyle.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item phone">
+                    <div class="gallery-item-inner">
+                        <img src="images/phone-2.jpeg" alt="phone" data-description="The Samsung Galaxy S23 FE (Fan Edition) is a more affordable variant of the Galaxy S23 series, designed to offer flagship-like features at a lower price point. It typically features a high-quality AMOLED display, a powerful processor (often a slightly toned-down version compared to the S23), a versatile camera system, and a sleek design. The S23 FE is aimed at users who want a premium experience without paying for the top-tier models, balancing performance, camera quality, and battery life. It usually runs on the latest version of Android with Samsung's One UI overlay." >
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item earbud">
+                    <div class="gallery-item-inner">
+                        <img src="images/earbuds-3.jpg" alt="earbud" data-description="Noise Earbuds are wireless in-ear headphones known for delivering high-quality sound with active noise cancellation (ANC) to block out ambient noise. They offer a comfortable fit, long battery life, and seamless Bluetooth connectivity, making them ideal for on-the-go listening. Noise Earbuds often feature touch controls, voice assistant integration, and water resistance, catering to users looking for a blend of performance and convenience at an affordable price.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item headphone">
+                    <div class="gallery-item-inner">
+                        <img src="images/headphone-2.jpg" alt="headphone" data-description="Apple headphones, including the AirPods and AirPods Max, are known for their premium build quality, seamless integration with Apple devices, and exceptional sound performance. The AirPods offer a truly wireless experience with features like automatic device switching, spatial audio, and active noise cancellation in the Pro models. The AirPods Max, Apple's over-ear headphones, provide high-fidelity audio, industry-leading ANC, and a luxurious design. Both types emphasize user-friendly features, long battery life, and Siri voice control, making them popular among Apple users for their convenience and audio quality.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item speaker">
+                    <div class="gallery-item-inner">
+                        <img src="images/speaker-3.jpeg" alt="speaker" data-description="Sony speakers are renowned for their high-quality sound, durability, and innovative features. These portable Bluetooth speakers often come with powerful bass, clear audio, and enhanced sound modes like Extra Bass for a more immersive listening experience. They are designed for portability with water and dust resistance, making them ideal for outdoor use. Sony speakers typically offer long battery life, multi-device connectivity, and some models even include built-in LED lights that sync with the music, adding to the entertainment experience.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item smartwatch">
+                    <div class="gallery-item-inner">
+                        <img src="images/smartwatch-3.webp" alt="smartwatch" data-description="Noise smartwatches are known for offering a range of features at an affordable price point, making them popular in the budget wearable market. These smartwatches typically include fitness tracking, heart rate monitoring, sleep analysis, and notifications for calls, messages, and apps. With a focus on style and functionality, Noise smartwatches often come with customizable watch faces, water resistance, and decent battery life, catering to users looking for an accessible and stylish wearable to complement their lifestyle.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item headphone">
+                    <div class="gallery-item-inner">
+                        <img src="images/headphone-3.jpeg" alt="headphone" data-description="boAt headphones are popular for delivering powerful sound and deep bass at an affordable price. Known for their trendy designs and durable build, boAt headphones offer features like passive noise isolation, long battery life, and comfortable ear cushions. They come in both wired and wireless options, often with Bluetooth connectivity and built-in controls for easy music and call management. boAt headphones are favored by users who seek a balance of style, performance, and value.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item earbud">
+                    <div class="gallery-item-inner">
+                        <img src="images/earbuds-4.webp" alt="earbud" data-description="Apple Earbuds, commonly known as EarPods, are wired in-ear headphones designed by Apple. They feature a sleek and ergonomic design, shaped to fit the geometry of the ear, making them comfortable for most users. Unlike traditional, circular earbuds, the EarPods are designed with a more natural shape that allows for a better fit and improved sound quality. The EarPods are equipped with a built-in remote and microphone, allowing users to adjust volume, control music and video playback, and answer or end calls with a pinch of the cord. ">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item speaker">
+                    <div class="gallery-item-inner">
+                        <img src="images/speaker-4.jpg" alt="speaker" data-description="BoAt speakers are affordable, portable Bluetooth speakers known for their powerful sound, deep bass, and vibrant designs. They come in various sizes, often featuring water resistance, long battery life, and rugged builds, making them ideal for outdoor use. Popular for their durability and solid audio performance, they are a go-to choice for budget-conscious music lovers.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item smartwatch">
+                    <div class="gallery-item-inner">
+                        <img src="images/smartwatch-4.webp" alt="smartwatch" data-description="Apple Watch is a versatile smartwatch that combines fitness tracking, health monitoring, and seamless integration with iOS devices. It features a sleek design with a touch screen, customizable watch faces, and a variety of apps. Key features include heart rate monitoring, GPS, notifications, and compatibility with Siri for voice commands. The Apple Watch also supports activity tracking, sleep monitoring, and offers cellular models for independent connectivity. It's designed to enhance daily life with both practical functions and personal style.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item phone">
+                    <div class="gallery-item-inner">
+                        <img src="images/phone-4.jpeg" alt="phone" data-description="The Vivo Y17s is a budget-friendly smartphone from Vivo. It typically features a large display, a capable multi-camera system, and a substantial battery for extended use. The phone often comes with a modest processor, sufficient for everyday tasks, and a sleek design. Key features usually include a sizable screen, decent camera performance, and a long-lasting battery, making it a good option for users seeking affordability and reliable performance.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item phone">
+                    <div class="gallery-item-inner">
+                        <img src="images/phone-5.jpeg" alt="phone" data-description="The iPhone 14 Pro Max is a high-end smartphone from Apple, known for its advanced features and premium design. It features a large Super Retina XDR display with ProMotion technology for smooth scrolling and vibrant visuals. The device is powered by the A16 Bionic chip, providing top-tier performance and efficiency.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item earbud">
+                    <div class="gallery-item-inner">
+                        <img src="images/earbuds-5.jpg" alt="earbud" data-description="Trigger Earbuds are a line of wireless earbuds known for their stylish design and good audio performance. They typically offer features such as Bluetooth connectivity for wireless listening, a comfortable fit with various ear tip sizes, and built-in microphones for hands-free calling.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item smartwatch">
+                    <div class="gallery-item-inner">
+                        <img src="images/smartwatch-5.webp" alt="smartwatch" data-description="The boAt Head Smart Watch is a budget-friendly smartwatch offering a range of features suited for fitness tracking and daily use.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item speaker">
+                    <div class="gallery-item-inner">
+                        <img src="images/speaker-5.jpg" alt="speaker" data-description="LG speakers are known for delivering good sound quality with a range of models to suit different needs. They often feature clear audio performance, various connectivity options (like Bluetooth and wired connections), and modern designs. LG offers speakers that cater to home entertainment setups and portable, on-the-go use, providing a balance of sound quality, functionality, and style.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item phone">
+                    <div class="gallery-item-inner">
+                        <img src="images/phone-6.jpeg" alt="phone" data-description="LG speakers are known for delivering good sound quality with a range of models to suit different needs. They often feature clear audio performance, various connectivity options (like Bluetooth and wired connections), and modern designs. LG offers speakers that cater to home entertainment setups and portable, on-the-go use, providing a balance of sound quality, functionality, and style.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item smartwatch">
+                    <div class="gallery-item-inner">
+                        <img src="images/smartwatch-6.webp" alt="smartwatch" data-description="LG speakers are known for delivering good sound quality with a range of models to suit different needs. They often feature clear audio performance, various connectivity options (like Bluetooth and wired connections), and modern designs. LG offers speakers that cater to home entertainment setups and portable, on-the-go use, providing a balance of sound quality, functionality, and style.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item headphone">
+                    <div class="gallery-item-inner">
+                        <img src="images/headphone-4.jpg" alt="headphone" data-description="LG speakers are known for delivering good sound quality with a range of models to suit different needs. They often feature clear audio performance, various connectivity options (like Bluetooth and wired connections), and modern designs. LG offers speakers that cater to home entertainment setups and portable, on-the-go use, providing a balance of sound quality, functionality, and style.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item earbud">
+                    <div class="gallery-item-inner">
+                        <img src="images/earbuds-6.jpeg" alt="earbud" data-description="LG speakers are known for delivering good sound quality with a range of models to suit different needs. They often feature clear audio performance, various connectivity options (like Bluetooth and wired connections), and modern designs. LG offers speakers that cater to home entertainment setups and portable, on-the-go use, providing a balance of sound quality, functionality, and style.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item phone">
+                    <div class="gallery-item-inner">
+                        <img src="images/phone-7.jpeg" alt="phone" data-description="LG speakers are known for delivering good sound quality with a range of models to suit different needs. They often feature clear audio performance, various connectivity options (like Bluetooth and wired connections), and modern designs. LG offers speakers that cater to home entertainment setups and portable, on-the-go use, providing a balance of sound quality, functionality, and style">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item speaker">
+                    <div class="gallery-item-inner">
+                        <img src="images/speaker-6.jpg" alt="speaker" data-description="LG speakers are known for delivering good sound quality with a range of models to suit different needs. They often feature clear audio performance, various connectivity options (like Bluetooth and wired connections), and modern designs. LG offers speakers that cater to home entertainment setups and portable, on-the-go use, providing a balance of sound quality, functionality, and style.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item phone">
+                    <div class="gallery-item-inner">
+                        <img src="images/phone-8.jpeg" alt="phone" data-description="LG speakers are known for delivering good sound quality with a range of models to suit different needs. They often feature clear audio performance, various connectivity options (like Bluetooth and wired connections), and modern designs. LG offers speakers that cater to home entertainment setups and portable, on-the-go use, providing a balance of sound quality, functionality, and style.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item headphone">
+                    <div class="gallery-item-inner">
+                        <img src="images/headphone-5.webp" alt="headphone" data-description="LG speakers are known for delivering good sound quality with a range of models to suit different needs. They often feature clear audio performance, various connectivity options (like Bluetooth and wired connections), and modern designs. LG offers speakers that cater to home entertainment setups and portable, on-the-go use, providing a balance of sound quality, functionality, and style.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item speaker">
+                    <div class="gallery-item-inner">
+                        <img src="images/speaker-7.jpg" alt="speaker" data-description="LG speakers are known for delivering good sound quality with a range of models to suit different needs. They often feature clear audio performance, various connectivity options (like Bluetooth and wired connections), and modern designs. LG offers speakers that cater to home entertainment setups and portable, on-the-go use, providing a balance of sound quality, functionality, and style.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item headphone">
+                    <div class="gallery-item-inner">
+                        <img src="images/headphone-6.avif" alt="headphone" data-description="LG speakers are known for delivering good sound quality with a range of models to suit different needs. They often feature clear audio performance, various connectivity options (like Bluetooth and wired connections), and modern designs. LG offers speakers that cater to home entertainment setups and portable, on-the-go use, providing a balance of sound quality, functionality, and style.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item speaker">
+                    <div class="gallery-item-inner">
+                        <img src="images/speaker-9.webp" alt="speaker" data-description="LG speakers are known for delivering good sound quality with a range of models to suit different needs. They often feature clear audio performance, various connectivity options (like Bluetooth and wired connections), and modern designs. LG offers speakers that cater to home entertainment setups and portable, on-the-go use, providing a balance of sound quality, functionality, and style.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item phone">
+                    <div class="gallery-item-inner">
+                        <img src="images/phone-9.webp" alt="phone" data-description="LG speakers are known for delivering good sound quality with a range of models to suit different needs. They often feature clear audio performance, various connectivity options (like Bluetooth and wired connections), and modern designs. LG offers speakers that cater to home entertainment setups and portable, on-the-go use, providing a balance of sound quality, functionality, and style.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item speaker">
+                    <div class="gallery-item-inner">
+                        <img src="images/speaker-10.jpeg" alt="speaker" data-description="LG speakers are known for delivering good sound quality with a range of models to suit different needs. They often feature clear audio performance, various connectivity options (like Bluetooth and wired connections), and modern designs. LG offers speakers that cater to home entertainment setups and portable, on-the-go use, providing a balance of sound quality, functionality, and style.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item phone">
+                    <div class="gallery-item-inner">
+                        <img src="images/phone-10.jpeg" alt="phone" data-description="LG speakers are known for delivering good sound quality with a range of models to suit different needs. They often feature clear audio performance, various connectivity options (like Bluetooth and wired connections), and modern designs. LG offers speakers that cater to home entertainment setups and portable, on-the-go use, providing a balance of sound quality, functionality, and style.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                 <!-- gallery item start -->
+                <div class="gallery-item metashot">
+                    <div class="gallery-item-inner">
+                        <img src="images/metashot-3.png" alt="metashot" data-description="LG speakers are known for delivering good sound quality with a range of models to suit different needs. They often feature clear audio performance, various connectivity options (like Bluetooth and wired connections), and modern designs. LG offers speakers that cater to home entertainment setups and portable, on-the-go use, providing a balance of sound quality, functionality, and style.">
+                        <button class="like-btn" aria-label="Like this image">&#9825;</button> 
+                    </div>
+                </div>
+                <!-- gallery item end -->
+            </div>
+        </div>
+    </section>
+
+   <!-- Lightbox -->
+   <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+    <div id="caption"></div>
+    <!-- Next and Previous buttons -->
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
